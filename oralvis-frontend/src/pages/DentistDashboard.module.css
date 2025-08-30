@@ -1,0 +1,137 @@
+.dashboard {
+  max-width: 1200px;
+  margin: 2rem auto;
+  padding: 2rem;
+}
+
+/* --- NEW HEADER STYLES --- */
+.dashboardHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap; /* Allows buttons to wrap on smaller screens */
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid var(--border-color);
+}
+
+.title {
+  margin: 0; /* Remove default margin from h2 */
+  color: var(--secondary-color);
+}
+
+.headerActions {
+  display: flex;
+  gap: 1rem;
+}
+/* --- END OF HEADER STYLES --- */
+
+
+.scansGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 1.5rem;
+}
+
+.scanCard {
+  background: var(--surface-color);
+  border-radius: 8px;
+  box-shadow: var(--box-shadow);
+  overflow: hidden;
+  transition: transform 0.2s, box-shadow 0.2s;
+  display: flex;
+  flex-direction: column;
+}
+
+.scanCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.scanImage {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+
+.cardContent {
+  padding: 1rem;
+  flex-grow: 1;
+}
+
+.cardContent p {
+  margin: 0.5rem 0;
+  line-height: 1.5;
+}
+
+.cardActions {
+  padding: 1rem;
+  border-top: 1px solid var(--border-color);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.button, .linkButton {
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+  cursor: pointer;
+  transition: all 0.2s;
+  text-align: center;
+  border: none;
+  flex-grow: 1; /* Allows buttons to share space */
+}
+
+.button {
+  background-color: var(--primary-color);
+  color: white;
+}
+.button:hover {
+  background-color: var(--primary-color-hover);
+}
+
+.linkButton {
+  border: 1px solid var(--primary-color);
+  background-color: transparent;
+  color: var(--primary-color);
+}
+.linkButton:hover {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.message {
+  text-align: center;
+  font-size: 1.2rem;
+  color: var(--secondary-color);
+}
+
+/* --- BUTTON-SPECIFIC STYLES --- */
+.deleteButton {
+  border: 1px solid var(--error-color);
+  background-color: transparent;
+  color: var(--error-color);
+}
+.deleteButton:hover {
+  background-color: var(--error-color);
+  color: white;
+}
+
+.clearAllButton {
+  background-color: var(--error-color);
+}
+.clearAllButton:hover {
+  background-color: #c82333; /* A darker red */
+}
+
+.logoutButton {
+  background-color: transparent;
+  color: var(--secondary-color);
+  border: 1px solid var(--border-color);
+}
+.logoutButton:hover {
+  background-color: #e9ecef;
+}
