@@ -37,6 +37,8 @@ The application is built with a modern technology stack:
 *(Screenshots of the key pages would be placed here)*
 
 * **Login Page:**
+  <img width="690" height="638" alt="Image" src="https://github.com/user-attachments/assets/d4b65ca2-1ecd-4f3f-b283-3d800743a35b" />
+
    
 
 * **Technician Dashboard:**
