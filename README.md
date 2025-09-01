@@ -34,17 +34,41 @@ The application is built with a modern technology stack:
 
 ## Screenshots
 
-*(Screenshots of the key pages would be placed here)*
+
 
 * **Login Page:**
+
+
+
+
+
   <img width="690" height="638" alt="Image" src="https://github.com/user-attachments/assets/d4b65ca2-1ecd-4f3f-b283-3d800743a35b" />
 
    
 
 * **Technician Dashboard:**
-    * **
+
+
+
+
+
+   <img width="1069" height="628" alt="Image" src="https://github.com/user-attachments/assets/f7666eb4-68eb-4c94-bd37-e9bbabef5e54" />
+
+
+
+  
+
+
+
+    
 * **Dentist Dashboard:**
-    * **
+   
+
+
+
+
+    <img width="1636" height="805" alt="Image" src="https://github.com/user-attachments/assets/e609be05-b3a4-4a9e-bf75-ce543a151d14" />
+
 
 ## Getting Started
 
